@@ -7,5 +7,21 @@ Address-of Operator (&), adalah operator yang memungkinkan kita untuk mendapatka
 
 contoh penggunaan:
 ```cpp
-&var
+&variabel
+```
+### Dereference Operator (*)
+Dereference Operator (*), adalah operator yang memungkinkan mendapatkan isi/nilai dari sebuah memori berdasarkan alamat memori.
+```cpp
+*&var
+```
+
+## Mendirikan Pionter
+```cpp
+int *pInt;
+double *pDouble = &myVar;
+```
+## Cara Mengakses Pointer
+Untuk mengakses nilai dari pointer kita hanya cukup memanggil identiatas dari pointer tersebut.]
+```cpp
+pInt
 ```
