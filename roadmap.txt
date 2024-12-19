@@ -1,1 +1,7 @@
 Dasar Manipulasi file MEngunakan C++
+library :  1. <fstream> Header utama untuk manipulasi
+               file, yang menggabungkan fungsi dari ifstream (input file) dan ofstream (output file)
+           2. <ifstream> membaca file
+           3. <ofstream> menulis data file
+
+ 
